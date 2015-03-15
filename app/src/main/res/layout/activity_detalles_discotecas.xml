@@ -1,0 +1,32 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.startup.junior.appverano.DetallesDiscotecas"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<include
+    android:id="@+id/app_bar"
+    layout="@layout/app_bar"/>
+
+<com.startup.junior.appverano.widget.SlidingTabLayout
+    android:id="@+id/tabs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/textColorPrimary"
+    android:background="@color/primary"
+    />
+
+<android.support.v4.view.ViewPager
+    android:id="@+id/pagerTabs"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    />
+
+
+
+
+</LinearLayout>
+

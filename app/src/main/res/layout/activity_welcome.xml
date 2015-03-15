@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+           <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            />
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:padding="10dip"
+            app:background="@android:color/transparent"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empezar"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="#2979FF"
+            android:layout_above="@+id/login_facebook"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp" />
+
+        <com.facebook.widget.LoginButton
+            android:id="@+id/login_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/indicator"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp" />
+
+
+</RelativeLayout>

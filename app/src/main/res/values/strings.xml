@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DiscotecasPiura</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_section1">Perfil</string>
+    <string name="title_section2">inicio</string>
+    <string name="title_section3">Discotecas</string>
+    <string name="title_section4">Estado de Lista</string>
+    <string name="title_section5">Mis eventos</string>
+    <string name="loren_ipsum">This library is not compatible with the new AppCompat.
+    An issue has been opened on its Github page here: Fading ActionBar Issues.
+    The developer is aware of the issue, but in the meantime, he published a gist
+    that shows how to implement this effect with the new Toolbar widget here:
+    Toolbar fading effect
+    This library is not compatible with the new AppCompat.
+    An issue has been opened on its Github page here: Fading ActionBar Issues.
+    The developer is aware of the issue, but in the meantime, he published a gist
+    that shows how to implement this effect with the new Toolbar widget here:
+    Toolbar fading effect
+    This library is not compatible with the new AppCompat.
+    An issue has been opened on its Github page here: Fading ActionBar Issues.
+    The developer is aware of the issue, but in the meantime, he published a gist
+    that shows how to implement this effect with the new Toolbar widget here:
+    Toolbar fading effect
+    This library is not compatible with the new AppCompat.
+    An issue has been opened on its Github page here: Fading ActionBar Issues.
+    The developer is aware of the issue, but in the meantime, he published a gist
+    that shows how to implement this effect with the new Toolbar widget here:
+    Toolbar fading effect
+    This library is not compatible with the new AppCompat.
+    An issue has been opened on its Github page here: Fading ActionBar Issues.
+    The developer is aware of the issue, but in the meantime, he published a gist
+    that shows how to implement this effect with the new Toolbar widget here:
+    Toolbar fading effect</string>
+
+    <!-- Elemtos del drawer -->
+    <string-array name="nav_option">
+        <item>Inicio</item>
+        <item>Discotecas</item>
+        <item>Estado de Lista</item>
+        <item>Mis Eventos</item>
+        <!-- <item>Cerrar Sesión</item> -->
+    </string-array>
+    <string-array name="nav_option2">
+        <item>Discotecas PIura</item>
+        <item>Inicio</item>
+        <item>Discotecas</item>
+        <item>Estado de Lista</item>
+        <item>Mis Eventos</item>
+        <!-- <item>Cerrar Sesión</item> -->
+    </string-array>
+    <string-array name="nav_icon">
+        <item>@drawable/home</item>
+        <item>@drawable/music_note</item>
+        <item>@drawable/lista</item>
+        <item>@drawable/calandar</item>
+        <!-- <item>@drawable/ic_action_reply</item> -->
+    </string-array>
+
+    <!--tabs-->
+    <string-array name="tabs_array">
+        <item>Informacion</item>
+        <item>Eventos</item>
+        <item>Mapa</item>
+    </string-array>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sub">SubActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_detalles_evento">DetallesEvento</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_events">EventsActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_discotecas">DiscotecasActivity</string>
+    <string name="title_activity_detalles_discotecas">DetallesDiscotecasActivity</string>
+
+</resources>

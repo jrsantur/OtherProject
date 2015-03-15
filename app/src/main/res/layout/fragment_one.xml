@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/background"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+        <View
+            android:id="@+id/maps"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+
+            android:background="@drawable/maps"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"></View>
+
+        <View
+            android:id="@+id/phone"
+            android:layout_width="70dp"
+            android:layout_height="140dp"
+            android:background="@drawable/phone"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_alignBottom="@+id/maps"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></View>
+
+
+
+
+
+
+
+
+</RelativeLayout>

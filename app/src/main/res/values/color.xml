@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#fe2e2e</color>
+    <color name="primarydark">#EFcb2424</color>
+    <color name="tabsTitleColor">#FFFFFF</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="background">#009688</color>
+    <color name="background_opaque">#FFFFFF</color>
+    <color name="tabsScrollColor">#FFFFFF</color>
+
+    <drawable name="list_focused">#36C170</drawable>
+    <drawable name="list_selected">#9EC136</drawable>
+    
+</resources>
+    
+    
